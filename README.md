@@ -8,6 +8,10 @@ A small collection of [Raycast Script Commands](https://github.com/raycast/scrip
 
 Resizes the front **Google Chrome** window to an exact pixel width — handy for quickly checking responsive breakpoints. Keeps the window's current position and height; only the width changes.
 
+### Approve PR
+
+Approves the GitHub PR whose link is on the clipboard (Slack's `<url|text>` wrapping is fine). Runs `gh pr review --approve`, so `gh auth login` must be done once.
+
 ## Setup
 
 1. Open **Raycast → Settings → Extensions**.
