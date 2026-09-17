@@ -10,7 +10,7 @@ Resizes the front **Google Chrome** window to an exact pixel width — handy for
 
 ### Approve PR
 
-Approves the GitHub PR whose link is on the clipboard (Slack's `<url|text>` wrapping is fine). Runs `gh pr review --approve`, so `gh auth login` must be done once.
+Approves every GitHub PR link on the clipboard (Slack's `<url|text>` wrapping is fine). Runs `gh pr review --approve`, so `gh auth login` must be done once.
 
 ## Setup
 
